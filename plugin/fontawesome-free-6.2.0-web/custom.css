@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.banner {
+  height: 600px;
+  background-image: url("img/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px; }
+  .banner .logo {
+    text-align: left;
+    display: block;
+    height: 100px; }
+  .banner .about-us {
+    margin-top: 410px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle; }
+    .banner .about-us .link-tool {
+      display: inline-block;
+      padding: 20px;
+      text-decoration: none;
+      margin-right: 15px;
+      color: white;
+      font-family: cursive;
+      font-size: 20px;
+      text-transform: uppercase; }
+    .banner .about-us .book,
+    .banner .about-us .link-user,
+    .banner .about-us .link-search {
+      display: inline-block;
+      padding: 15px;
+      text-decoration: none;
+      margin-right: 15px;
+      color: white;
+      font-family: cursive;
+      font-size: 20px;
+      cursor: pointer;
+      /* chuyển hình bàn tay */ }
+    .banner .about-us button {
+      padding: 10px 15px;
+      border: 1px solid white;
+      border-radius: 20px;
+      background-color: orange;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      /* chuyển hình bàn tay */ }
+    .banner .about-us a:hover {
+      color: orange; }
+    .banner .about-us button:hover {
+      background-color: transparent; }
+
+/*# sourceMappingURL=custom.css.map */

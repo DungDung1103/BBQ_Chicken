@@ -1,0 +1,261 @@
+html {
+  width: 1366px !important;
+}
+
+body {
+  margin: 0% !important;
+}
+
+.header {
+  width: 100%;
+  height: 108px;
+  text-align: center;
+}
+.header .header-banner {
+  height: 27px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .header-logo img {
+  width: 169px;
+  height: 43px;
+}
+.header nav.header-menu {
+  text-align: left;
+  margin-left: 158px;
+}
+.header nav.header-menu a.nav-header-menu {
+  font-size: 17px;
+  padding-right: 25px;
+  color: #4d4d4d;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 9.5px;
+}
+.header nav.header-menu a:hover {
+  color: #f63c3d;
+}
+.header hr {
+  width: 1366px;
+  height: 5px;
+  background-color: #ed1d24;
+  border: #ed1d24;
+}
+
+main {
+  height: 1500px;
+  width: 1366px;
+}
+main .container {
+  text-align: left;
+  margin-left: 158px;
+}
+main .container .main-kb {
+  height: 48px;
+}
+main .container .main-nd {
+  display: flex;
+}
+main .container .main-nd .section1 {
+  width: 229px;
+}
+main .container .main-nd .section1 .section-list {
+  border: 1px solid #dddddd;
+  width: 229px;
+  color: #333333;
+  text-decoration: none;
+}
+main .container .main-nd .section1 .section-list .section-list-title {
+  background-color: #ed1d24;
+  height: 17px;
+  -webkit-margin-before: 0em !important;
+          margin-block-start: 0em !important;
+  -webkit-margin-after: 0em !important;
+          margin-block-end: 0em !important;
+  text-transform: uppercase;
+  padding: 8px 59px 8px 15px;
+}
+main .container .main-nd .section1 .section-list .section-list-title span {
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+}
+main .container .main-nd .section1 .section-list .section-list-sp {
+  text-decoration: none;
+}
+main .container .main-nd .section1 .section-list .section-list-sp .section-list-sp-span {
+  list-style-image: url("list.png");
+  -webkit-margin-before: 0em !important;
+          margin-block-start: 0em !important;
+  -webkit-margin-after: 0em !important;
+          margin-block-end: 0em !important;
+  height: 360px;
+  padding-top: 11px;
+  padding-left: 29px;
+}
+main .container .main-nd .section1 .section-list .section-list-sp .section-list-sp-span span a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: Arial;
+}
+main .container .main-nd .section1 .section-list .section-list-sp .section-list-sp-span .section-list-sp-li {
+  padding-left: 13px;
+  height: 351px;
+}
+main .container .main-nd .section1 .section-list .section-list-sp .section-list-sp-span .section-list-sp-li li {
+  padding-top: 16px;
+}
+main .container .main-nd .section1 .section-list .section-list-sp .section-list-sp-span .section-list-sp-li li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 9.5px;
+  font-family: Arial;
+}
+main .container .main-nd .section2 {
+  width: 828px;
+  margin-left: 23px;
+}
+main .container .main-nd .section2 .section-option {
+  text-align: right;
+  width: 740px;
+  height: 17px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+}
+main .container .main-nd .section2 .section-option select {
+  width: 125px;
+  height: 22px;
+  vertical-align: middle;
+}
+main .container .main-nd .section2 .section-option select option {
+  vertical-align: middle;
+}
+main .container .main-nd .section2 .soluong {
+  text-align: left;
+  height: 40px;
+}
+main .container .main-nd .section2 .menu-product {
+  width: 807px;
+  height: 1352px;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td {
+  text-align: center;
+  padding-right: 4px;
+  text-decoration: none;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td a.absolute {
+  position: relative;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td a.absolute img {
+  width: 263px;
+  height: 195px;
+  margin-bottom: 20px;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td a.absolute .prices {
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td a.absolute b {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  width: 77px;
+  height: 31px;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td a {
+  text-decoration: none;
+  color: #555555;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td span {
+  font-family: Arial;
+  font-size: 15px;
+  color: #555555;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td hr {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td h4 {
+  -webkit-margin-before: 0em !important;
+          margin-block-start: 0em !important;
+  -webkit-margin-after: 0em !important;
+          margin-block-end: 0em !important;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  color: #555555;
+}
+main .container .main-nd .section2 .menu-product .menu-product-table .menu-product-td button {
+  width: 125px;
+  height: 39px;
+  color: #555555;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding-top: 31px;
+}
+.footer .container {
+  text-align: left;
+  margin-left: 158px;
+}
+.footer .container .section-footer1 {
+  margin-left: 252px;
+  display: flex;
+}
+.footer .container .section-footer1 .footer-hotro {
+  padding-right: 126px;
+  padding-bottom: 10px;
+}
+.footer .container .section-footer1 strong {
+  text-transform: uppercase;
+  color: #0066fe;
+}
+.footer .container .section-footer2 {
+  display: flex;
+  padding-top: 53px;
+  padding-bottom: 13px;
+}
+.footer .container .section-footer2 .footer-about .footer-about-p0 {
+  color: #800000;
+  text-transform: uppercase;
+}
+.footer .container .section-footer2 .footer-about .footer-about-p1 {
+  color: #333333;
+  background-color: #ffffff;
+}
+.footer .container .section-footer2 .footer-about .footer-about-p2 {
+  color: #333333;
+}
+.footer .container .section-footer2 .footer-about a {
+  text-decoration: none;
+  color: #b73402;
+}
+.footer .container .section-footer2 .footer-about b {
+  color: #0000cd;
+}
+.footer .container .section-footer2 .footer-img img {
+  width: 252px;
+  height: 101px;
+}
+.footer input[type=text] {
+  width: 153px;
+  height: 20px;
+  padding: 0px;
+}
+.footer ::-moz-placeholder {
+  color: #1a6fe1;
+}
+.footer ::placeholder {
+  color: #1a6fe1;
+}
+.footer input[type=button] {
+  width: 100px;
+  height: 30px;
+  background-color: #5183b4;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
