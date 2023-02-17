@@ -29,7 +29,7 @@ body {
       color: #4d4d4d;
       text-decoration: none;
       font-family: Arial;
-      font-size: 9.5px;
+      font-size: 14px;
     }
     a:hover {
       color: #f63c3d;
@@ -37,24 +37,55 @@ body {
   }
   hr {
     width: 1366px;
-    height: 5px;
+    height: 5px !important;
     background-color: #ed1d24;
     border: #ed1d24;
   }
 }
 main {
-  height: 1500px;
-  width: 1366px;
+  .main-banner {
+    //   background-color: #f4f4f4;
+
+    img {
+      height: 513px;
+      width: 1366px;
+      margin-top: 21px;
+    }
+  }
+  .main-container {
+    .col {
+      height: 317px;
+      padding-top: 48px;
+      font-family: Arial;
+
+      span {
+        text-transform: uppercase;
+        font-size: 22px;
+      }
+
+      a {
+        display: flex;
+        text-decoration: none;
+        color: #e51937;
+        img {
+          width: 98px;
+          height: 67px;
+        }
+      }
+    }
+  }
 
   .container {
     text-align: left;
     margin-left: 158px;
     .main-kb {
       height: 48px;
+      font-family: Arial;
     }
 
     .main-nd {
       display: flex;
+      font-family: Arial;
       .section1 {
         width: 229px;
         .section-list {
@@ -115,6 +146,7 @@ main {
       }
       .section2 {
         width: 828px;
+        height: 1432px;
         margin-left: 23px;
         .section-option {
           text-align: right;
@@ -202,10 +234,35 @@ main {
 .footer {
   background-color: #f4f4f4;
   padding-top: 31px;
+  font-family: Arial;
 
   .container {
     text-align: left;
     margin-left: 158px;
+
+    .section-footer0 {
+      display: flex;
+      height: 217px;
+
+      .tinmoi {
+        width: 320px;
+        padding-right: 35px;
+
+        a {
+          span {
+            display: block;
+            overflow: hidden;
+            -webkit-line-clamp: 1;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+      .ban-chay {
+        padding-right: 35px;
+        width: 320px;
+      }
+    }
     .section-footer1 {
       margin-left: 252px;
       display: flex;

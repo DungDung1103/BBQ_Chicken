@@ -31,21 +31,40 @@ body {
   color: #4d4d4d;
   text-decoration: none;
   font-family: Arial;
-  font-size: 9.5px;
+  font-size: 14px;
 }
 .header nav.header-menu a:hover {
   color: #f63c3d;
 }
 .header hr {
   width: 1366px;
-  height: 5px;
+  height: 5px !important;
   background-color: #ed1d24;
   border: #ed1d24;
 }
 
-main {
-  height: 1500px;
+main .main-banner img {
+  height: 513px;
   width: 1366px;
+  margin-top: 21px;
+}
+main .main-container .col {
+  height: 317px;
+  padding-top: 48px;
+  font-family: Arial;
+}
+main .main-container .col span {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+main .main-container .col a {
+  display: flex;
+  text-decoration: none;
+  color: #e51937;
+}
+main .main-container .col a img {
+  width: 98px;
+  height: 67px;
 }
 main .container {
   text-align: left;
@@ -53,9 +72,11 @@ main .container {
 }
 main .container .main-kb {
   height: 48px;
+  font-family: Arial;
 }
 main .container .main-nd {
   display: flex;
+  font-family: Arial;
 }
 main .container .main-nd .section1 {
   width: 229px;
@@ -115,6 +136,7 @@ main .container .main-nd .section1 .section-list .section-list-sp .section-list-
 }
 main .container .main-nd .section2 {
   width: 828px;
+  height: 1432px;
   margin-left: 23px;
 }
 main .container .main-nd .section2 .section-option {
@@ -198,10 +220,30 @@ main .container .main-nd .section2 .menu-product .menu-product-table .menu-produ
 .footer {
   background-color: #f4f4f4;
   padding-top: 31px;
+  font-family: Arial;
 }
 .footer .container {
   text-align: left;
   margin-left: 158px;
+}
+.footer .container .section-footer0 {
+  display: flex;
+  height: 217px;
+}
+.footer .container .section-footer0 .tinmoi {
+  width: 320px;
+  padding-right: 35px;
+}
+.footer .container .section-footer0 .tinmoi a span {
+  display: block;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.footer .container .section-footer0 .ban-chay {
+  padding-right: 35px;
+  width: 320px;
 }
 .footer .container .section-footer1 {
   margin-left: 252px;
